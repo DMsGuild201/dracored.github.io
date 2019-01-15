@@ -1,0 +1,29 @@
+#scraper{
+    background:#fdf1dc;
+    width: 500px;
+    height:600px;
+}
+
+#headline{
+    background:rgb(230, 154, 40);
+    height: 1%;
+    width:100%;
+}
+
+.dndbox-title{
+    font-family: "Convergence", Verdana, Tahoma;
+    font-size: 28px;
+}
+
+th.table-header{
+    font-family: "Convergence", Verdana, Tahoma;
+    font-size: 18px;
+}
+
+th.table-entry{
+    font-family: "Convergence", Verdana, Tahoma;
+}
+
+input{
+    font-family: "Convergence", Verdana, Tahoma;
+}

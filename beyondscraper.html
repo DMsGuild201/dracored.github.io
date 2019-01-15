@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/scraper.css">
+    <style type="text/css">
+        @font-face {
+            font-family: "Convergence";
+            src: url(font/Convergence-Regular.ttf) format("truetype");
+        }
+    </style>
+</head>
+
+<body>
+    <div id="scraper">
+        <div id="headline"></div>
+        <center>
+            <h class="dndbox-title">D&D Beyond Spell Scraper</h>
+        </center><br>
+        <center>
+            <input type="button" value="Copy JSON" id="json-copy">
+            <input type="button" value="Save JSON" id="json-save">
+            <input type="button" value="MyJSON Export" id="json-export">
+            <input type="button" value="Clear All" id="json-clear">
+        </center>
+        <br>
+        <center>
+            <input type="text" id="beyond-link" placeholder="D&D Beyond Link" style="width:250px;">
+            <input type="button" id="Scrape-Button" value="Scrape">
+        </center>
+        <br>
+        <center>
+            <table id="data-table">
+                    <tr>
+                        <th class="table-header">Click Spell to Remove</th>
+                    </tr>
+            </table>
+        </center>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/beyond-scraper.js"></script>
+</body>
