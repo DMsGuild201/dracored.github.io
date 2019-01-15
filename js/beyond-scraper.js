@@ -149,7 +149,9 @@ $(function(){
             $.each($html.find(".more-info-content > p"), function(){
                 var temp_d = document.createElement("div");
                 temp_d.innerHTML = this.innerHTML;
-                spell_desc.push(temp_d.innerText);
+                if(temp_d.innerText != " "){
+                    spell_desc.push(temp_d.innerText);
+                }
             });
 
             //var desc_div = document.createElement("div");
